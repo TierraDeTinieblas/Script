@@ -56,3 +56,5 @@ Set-Location ~\Desktop
 Invoke-WebRequest https://github.com/TierraDeTinieblas/Script/raw/main/Launcher.exe -OutFile Launcher.exe
 	echo "Listo"
 .\Launcher.exe
+    echo "Cerrando LauncherInstall ..."
+StopProcess -Name Stop-Process -Name LauncherInstall*

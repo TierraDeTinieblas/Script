@@ -4,7 +4,7 @@
 
 
 # 0. Close "LauncherInstall.exe"
-Stop-Process -Name LauncherInstall.exe
+Stop-Process -Name LauncherInstall*
 
 
 # 1. git pull
