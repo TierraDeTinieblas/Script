@@ -41,12 +41,12 @@ winget install Git.Git --accept-package-agreements --accept-source-agreements
 
 
 # 4 Install Prism Launcher
-Set-Location ~
+Set-Location "C:\Program Files\"
 	echo "Instalando Launcher ..."
 ."C:\Program Files\Git\bin\git.exe" clone https://github.com/TierraDeTinieblas/Launcher.git
 	echo "Listo"
 	echo "Añadiendo excepción de carpeta segura ..."
-."C:\Program Files\Git\bin\git.exe" config --global --add safe.directory ~\Launcher
+."C:\Program Files\Git\bin\git.exe" config --global --add safe.directory "C:\Program Files\Launcher"
 	echo "Listo"
 
 
